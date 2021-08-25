@@ -11,7 +11,9 @@ const root=document.getElementById('root');
 
 class Answer extends React.Component {
     render(){
-        return <p> Отзыв</p>
+        return <p> Было сложно разобраться с git и его командами.
+          Поиск информации, изучение новой информации отняло достаточно много времени.
+        </p>
 
     }
 
@@ -19,7 +21,7 @@ class Answer extends React.Component {
 
 
 ReactDOM.render( <Answer />, root);
-<div>ЧТо-то пока не получается добавить элемент из библиотеки</div>
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
